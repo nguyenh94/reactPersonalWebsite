@@ -1,0 +1,17 @@
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.nav_item {
+    padding-top: 2%;
+    padding-left: 5%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: black;
+}

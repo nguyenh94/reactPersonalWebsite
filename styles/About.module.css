@@ -1,0 +1,30 @@
+.about_container{
+    display: flex;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.about_me {
+    padding: 0px 10px 0px 40px;
+    font-size: 1.3em;
+}
+
+.icons_container Link {
+    cursor: pointer;
+}
+
+.logos {
+    width: 35px;
+    margin-left: 40px;
+}

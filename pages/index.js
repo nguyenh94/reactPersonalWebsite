@@ -1,20 +1,22 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Nav from '@components/Nav'
+import About from '@components/About'
+import Projects from '@components/Projects'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Huong Nguyen's Personal Site</title>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Nav about="About" projects="Projects" about_link="#about" projects_link="#projects" />
+        <Header statement="Hello, my name is" name="Huong Bao Nguyen" />
+        <About about_link="about" />
+        <Projects projects_link="projects" />
       </main>
 
       <Footer />

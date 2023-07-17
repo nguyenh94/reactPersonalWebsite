@@ -1,0 +1,26 @@
+.landing_header {
+    padding: 15% 0 20% 0;
+}
+
+.statement {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.name {
+    font-size: 70px;
+    font-weight: lighter;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.resume_button {
+    font-size: 20px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    background-color: #fafafa;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
