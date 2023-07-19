@@ -7,7 +7,8 @@ export default function Projects({ projects_link }) {
             <div className={styles.project}>
                 <div className={styles.project_title}>
                     <a href="https://github.com/nguyenh94/sushiGo" target="_blank" className={styles.project_name}>
-                        <h2>Sushi Go »</h2>
+                        <h2>Sushi Go</h2>
+                        <h2 className={styles.arrow}>»</h2>
                     </a>
                 </div>
                 <h3 className={styles.project_date}>April 2022 - May 2022</h3>
@@ -24,7 +25,8 @@ export default function Projects({ projects_link }) {
             <div className={styles.project}>
                 <div className={styles.project_title}>
                     <a href="https://github.com/nguyenh94/pocket_chef" target="_blank" className={styles.project_name}>
-                        <h2>Pocket Chef »</h2>
+                        <h2>Pocket Chef</h2>
+                        <h2 className={styles.arrow}>»</h2>
                     </a>
                 </div>
                 <h3 className={styles.project_date}>March 2022 - May 2022</h3>
@@ -42,7 +44,8 @@ export default function Projects({ projects_link }) {
             <div className={styles.project}>
                 <div className={styles.project_title}>
                     <a href="https://github.com/nguyenh94/Gas-Go" target="_blank" className={styles.project_name}>
-                        <h2>Gas$Go »</h2>
+                        <h2>Gas$Go</h2>
+                        <h2 className={styles.arrow}>»</h2>
                     </a>
                 </div>
                 <h3 className={styles.project_date}>April 2022 - May 2022</h3>
@@ -62,7 +65,8 @@ export default function Projects({ projects_link }) {
             <div className={styles.project}>
                 <div className={styles.project_title}>
                     <a href="https://github.com/nguyenh94/WeatherReport" target="_blank" className={styles.project_name}>
-                        <h2>WeatherReport »</h2>
+                        <h2>WeatherReport</h2>
+                        <h2 className={styles.arrow}>»</h2>
                     </a>
                 </div>
                 <h3 className={styles.project_date}>Spring 2022</h3>

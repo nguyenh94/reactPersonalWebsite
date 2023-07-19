@@ -6,6 +6,7 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-family: 'Saira Condensed', sans-serif;
   color: #1E1E1E;
+  scroll-behavior: smooth;
 }
 
 * {

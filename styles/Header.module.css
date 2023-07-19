@@ -6,6 +6,12 @@
     font-size: 30px;
     font-weight: lighter;
     margin-bottom: 0px;
+    /* border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: intro_type 2s steps(44, end) 1s 1 normal both,
+            blinkTextCursor 500ms steps(44, end) normal; */
 }
 
 .name {
@@ -14,6 +20,12 @@
     padding-top: 0px;
     margin-top: 15px;
     margin-bottom: 25px;
+    /* border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: name_type 2s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal; */
 }
 
 .resume_button {
@@ -23,4 +35,56 @@
     background-color: #fafafa;
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* transform: translateY(100px); */
+    animation: 8s ease-in 0s appear;
+}
+
+.resume_button:hover {
+    background: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50;
+    }
+    70% {
+        opacity: 70;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+@keyframes name_type {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 9em;
+    }
+}
+
+@keyframes intro_type {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 8em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: black;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
