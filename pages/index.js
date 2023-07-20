@@ -4,6 +4,7 @@ import Footer from '@components/Footer'
 import Nav from '@components/Nav'
 import About from '@components/About'
 import Projects from '@components/Projects'
+import { useEffect } from 'react'
 
 export default function Home() {
   return (

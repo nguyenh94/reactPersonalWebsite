@@ -6,6 +6,39 @@ export default function Projects({ projects_link }) {
             <h2 className={styles.projects_header}>Projects</h2>
             <div className={styles.project}>
                 <div className={styles.project_title}>
+                    <a href="https://github.com/nguyenh94/Village_Planner" target="_blank" className={styles.project_name}>
+                        <h2>Village Planner</h2>
+                        <h2 className={styles.arrow}>»</h2>
+                    </a>
+                </div>
+                <h3 className={styles.project_date}>September - December 2022</h3>
+                <p className={styles.project_description}>
+                    Worked in a team of 3 to design and develop an Android mobile app in
+                    Java to provide direction, estimated queue times, and dining reminders
+                    for restaurants in the USC Village using the agile methodology. Firestore
+                    is used as the database. Direction and queue times are computed using database
+                    queries and the Google Map API. Unit tests were implemented to ensure reliability
+                    and security when using the app.
+                </p>
+            </div>
+            <div className={styles.project}>
+                <div className={styles.project_title}>
+                    <a href="" target="_blank" className={styles.project_name}>
+                        <h2>Crypto Prices</h2>
+                        <h2 className={styles.arrow}>»</h2>
+                    </a>
+                </div>
+                <h3 className={styles.project_date}>December 2022</h3>
+                <p className={styles.project_description}>
+                    Developed a full stack application in python to display crypto prices and
+                    predict future prices based on current trends. Used Flask, pandas
+                    for data analysis, matplotlib for data visualization, and sklearn
+                    for data prediction. The web app handles multiple POST and GET endpoints
+                    as well as dynamic endpoints created by client POST requests.
+                </p>
+            </div>
+            <div className={styles.project}>
+                <div className={styles.project_title}>
                     <a href="https://github.com/nguyenh94/sushiGo" target="_blank" className={styles.project_name}>
                         <h2>Sushi Go</h2>
                         <h2 className={styles.arrow}>»</h2>

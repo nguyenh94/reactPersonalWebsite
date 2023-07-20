@@ -6,26 +6,27 @@
     font-size: 30px;
     font-weight: lighter;
     margin-bottom: 0px;
-    /* border-right: 2px solid black;
+    margin-left: 4px;
+    border-right: 2px solid black;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-    animation: intro_type 2s steps(44, end) 1s 1 normal both,
-            blinkTextCursor 500ms steps(44, end) normal; */
+    animation: intro_type 2s steps(70) 0.8s 1 normal both,
+            blinkTextCursor 700ms steps(45) normal infinite;
 }
 
 .name {
     font-size: 70px;
     font-weight: lighter;
     padding-top: 0px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    /* border-right: 2px solid black;
+    /* margin-top: 15px; */
+    margin-bottom: -5px;
+    /* border-right: 2px solid black; */
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-    animation: name_type 2s steps(44) 1s 1 normal both,
-        blinkTextCursor 500ms steps(44) infinite normal; */
+    animation: name_type 3s steps(70) 2.8s 1 normal both,
+        blinkTextCursor 700ms steps(44) infinite normal;
 }
 
 .resume_button {
@@ -34,9 +35,10 @@
     border-radius: 20px;
     background-color: #fafafa;
     cursor: pointer;
+    visibility: hidden;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     /* transform: translateY(100px); */
-    animation: 8s ease-in 0s appear;
+    animation: 8s ease-in 5.8s appear;
 }
 
 .resume_button:hover {
